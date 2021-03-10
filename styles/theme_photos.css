@@ -1,0 +1,22 @@
+/* --- corps de la page ---*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section {
+    z-index: 1;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+section img {
+    width: 35vw;
+    height: 50vh;
+    border-radius: 10px;        
+    box-shadow: 10px 10px 10px #FE7350;
+    transition: 1s ease;
+}

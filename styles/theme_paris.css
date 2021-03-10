@@ -1,0 +1,39 @@
+section:first-of-type {
+    background-image: url(../images/paris/paris_ban.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    border: 1px solid aliceblue;
+}
+
+section:first-of-type p {
+    text-align: center;
+    margin-top: 32%;
+}
+
+section:first-of-type a {
+    text-decoration: none;
+    padding: 1%;
+    background-color: #B03E42;
+    color: white;
+    border-radius: 15px;
+    transition-timing-function: linear;
+    transition: 1s;
+    
+}
+
+section:first-of-type a:hover {
+    background-color: #800F13;
+}
+
+section:first-of-type ~ section {
+    text-align: justify;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+section:nth-of-type(2) {
+    margin-top: 1%;
+    border-top: 2px inset blue;
+    border-bottom: 2px inset blue;
+}

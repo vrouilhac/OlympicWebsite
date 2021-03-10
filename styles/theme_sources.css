@@ -1,0 +1,48 @@
+section ul a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 1.4vw;
+    font-size: 2.3vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top:  1vh;
+    padding-bottom: 1vh;
+    
+    
+    border: 3px groove darkred;
+    
+    margin-left: 1vw;
+    transform-origin: left;
+    transition: 0.4s ease;
+    
+    
+    border-radius: 10px;
+}
+
+section {
+    
+    border: 10px inset silver;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+section ul a:hover {
+    background-color: coral;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section li {
+    margin-top: 2vh;
+    
+}
+
+section ul li img {
+    opacity: 0;
+}
+
+section ul li:hover img {
+    opacity: 1;
+}

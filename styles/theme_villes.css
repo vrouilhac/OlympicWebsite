@@ -1,0 +1,119 @@
+body {
+    height: 100%;
+}
+
+section img {
+    height: 35vh;
+}
+
+/*--- Forme des sections ---*/
+
+
+Section {
+    text-align: center;
+    border: 10px inset silver;
+    padding-left: 2%;
+    padding-right: 2%; 
+    margin: 1%;
+    height: 7vh;
+    width: 60vw;
+    margin-left: 19%;
+    overflow: hidden;    
+    transition: 1.2s;
+    transition-delay: 0.6s;
+    border-radius: 15px;
+}
+
+
+section p {
+    text-align: justify;
+}
+
+/*--- Contenu des sections ---*/
+
+section li {
+    list-style-type: none;
+}
+
+
+section a {    
+    text-decoration: none;
+}
+
+/*---Animations des sections ---*/
+
+
+section:nth-of-type(1):hover {  /*-- Los Angeles --*/
+    height: 67vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(2):hover {  /*-- Atlanta --*/
+    height: 69vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(3):hover {  /*-- Londres --*/
+    height: 62vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(4):hover {  /*-- Pékin --*/
+    height: 79vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(5):hover {  /*-- Stockholm --*/
+    height: 71vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(6):hover {  /*-- Berlin --*/
+    height: 82vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(7):hover {  /*-- Anvers --*/
+    height: 66vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(8):hover {  /*-- Amsterdam --*/
+    height: 68vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(9):hover {  /*-- Rome --*/
+    height: 64vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(10):hover { /*-- Tokyo --*/
+    height: 68vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(11):hover { /*-- Mexico --*/
+    height: 66vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(12):hover { /*-- Séoul --*/
+    height: 66vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(13):hover { /*-- Barcelone --*/
+    height: 66vh;
+    transition-delay: 0.3s;
+}
+
+section:nth-of-type(14):hover { /*-- Sydney --*/
+    height: 75vh;  
+    transition-delay: 0.3s; 
+}
+
+section:nth-of-type(15):hover { /*-- Rio de janeiro --*/
+    height: 112vh;
+    transition-delay: 0.3s;
+}

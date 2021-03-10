@@ -1,0 +1,200 @@
+/* --- Body --- */
+
+body {
+    margin: 0;
+    background-color: #CAB1B5;
+    position: relative;
+}
+
+/* --- nouvelles polices --- */
+
+@font-face {
+    font-family: "signof";
+    src: url("../polices/signof/signof.ttf");
+}
+
+
+/* --- Header --- */
+
+
+header {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: signof;
+}
+
+header img {
+    height: 5vh;
+    width: auto;
+}
+
+
+/* --- Banniere de navigation --- */
+
+nav {/*Toute la bannière*/
+    background-image: linear-gradient(to left, #212121, #382828);
+    color: cornflowerblue;
+    position: sticky;
+    top: 0px;
+    display: block;
+    height: 8vh;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    z-index: 20;
+}
+
+nav a {/*Boutons*/
+    text-decoration: none;
+    color: aliceblue;  
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 7.7vh;
+    vertical-align: middle;
+    border: 1px solid white;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+nav li {/*Texte*/
+    display: flex;
+    flex-direction: row;
+    font-family: signof;
+}
+
+
+/* --- lien de baniere --- */
+
+
+nav a:active, nav a:hover {
+    background-color: #C17A00;
+}
+
+nav img:hover {
+    opacity: 1;
+}
+
+nav a:visited {
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+nav li {
+    height: 8vh;
+    width: 180px;  /* largeur */ 
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+                            /*Bouton_sauf_paris*/
+nav li{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;    
+}
+
+nav li:hover{
+    height: 17vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to left, #212121, #382828);
+    transition: 0.7s ease;
+}
+nav li:hover p a {
+    border-left: none;
+    border-right: none;
+}
+
+
+                        /*Bouton_Paris*/
+nav li:nth-of-type(3){
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;    
+}
+nav li:nth-of-type(3):hover{
+    height: 27vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to left, #212121, #382828);
+    transition: 0.7s ease;
+}
+nav li:nth-of-type(3):hover a:last-of-type {
+    padding: 2%;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+nav ul a {
+    vertical-align: middle;
+}
+
+nav p {
+    font-size: 2.5vh;
+}
+
+/* --- Pied de page --- */
+
+
+footer {
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    color: #9BBAC0;
+    text-align: center;
+    background-color: #372E2F;
+    box-shadow:2px 2px 2px silver;
+    padding-bottom: 2vh;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer a {    
+    text-decoration: none;
+    color: #63AEBD;
+    
+}
+
+footer a:active , footer a:visited {
+    color: #63AEBD;
+}
+
+footer a:hover {
+    color: whitesmoke;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+footer li {
+    bottom: 0px;
+    right: 0px;
+}
+
+footer img {
+    transform: scale(0.7);
+}
